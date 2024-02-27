@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --text: #f6e9ee;
+        --background: #0b0407;
+        --primary: #d89cb0;
+        --secondary: #804e32;
+        --accent: #be945a;
+    }
+
+    body {
+        overflow-x: hidden;
+        background: var(--background);
+    }
+}
